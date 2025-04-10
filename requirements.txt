@@ -1,0 +1,6 @@
+# Dependências do projeto
+Pillow>=11.1.0
+
+# Dependências adicionais (caso existam)
+# pytest==7.2.0  # Para testes automatizados
+# numpy>=1.21.0  # Apenas se for necessário para manipulação avançada de imagens ou cálculos
