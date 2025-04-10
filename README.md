@@ -1,31 +1,31 @@
 # Comparador de Imagens em Python
 
-Este projeto permite comparar duas imagens e gerar uma terceira imagem que destaca as diferenças em preto e branco. Ele utiliza a biblioteca **Pillow** para a manipulação de imagens e inclui tratamento robusto de erros para garantir uma execução confiável.
+Este projeto permite comparar duas imagens e gerar uma terceira imagem que destaca as diferencas em preto e branco. Ele utiliza a biblioteca **Pillow** para a manipulacao de imagens e inclui tratamento robusto de erros para garantir uma execucao confiavel.
 
 ## Indice
 
-- [Descrição](#descrição)
+- [Descricao](#descricao)
 - [Funcionalidades](#funcionalidades)
 - [Requisitos](#requisitos)
-- [Instalação](#instalação)
+- [Instalacao](#instalacao)
 - [Uso](#uso)
-- [Exemplo de Execução](#exemplo-de-execução)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Exemplo de Execucao](#exemplo-de-execucao)
+- [Contribuicao](#contribuicao)
+- [Licenca](#licenca)
 
-## Descrição
+## Descricao
 
-O projeto é composto por dois módulos principais:
+O projeto e composto por dois modulos principais:
 
-1. `__init__.py`: Realiza o carregamento, comparação e salvamento das imagens processadas.
-2. `comparar_imagens.py`: Contém funções para carregar imagens, identificar diferenças entre elas e salvar a imagem resultante.
+1. `__init__.py`: Realiza o carregamento, comparacao e salvamento das imagens processadas.
+2. `comparar_imagens.py`: Contem funcoes para carregar imagens, identificar diferencas entre elas e salvar a imagem resultante.
 
 ## Funcionalidades
 
 - Carrega duas imagens a partir de caminhos fornecidos.
-- Compara as imagens e gera uma nova imagem que destaca as diferenças.
+- Compara as imagens e gera uma nova imagem que destaca as diferencas.
 - Salva a imagem gerada em um caminho especificado.
-- Lida com exceções, como arquivos ausentes ou incompatibilidades entre as imagens.
+- Lida com excecoes, como arquivos ausentes ou incompatibilidades entre as imagens.
 
 ## Requisitos
 
@@ -35,9 +35,9 @@ Certifique-se de que o ambiente Python possua os seguintes requisitos:
 - Biblioteca Pillow instalada.
 - Imagens de entrada com o mesmo tamanho e formato.
 
-## Instalação
+## Instalacao
 
-1. Clone este repositório:
+1. Clone este repositorio:
 
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
@@ -54,20 +54,20 @@ Certifique-se de que o ambiente Python possua os seguintes requisitos:
 
 	python __init__.py
 
-3. A imagem com as diferenças será gerada no caminho especificado no código.
+3. A imagem com as diferencas sera gerada no caminho especificado no codigo.
 
-## Exemplo de Execução
+## Exemplo de Execucao
 
-Suponha que voçê tenha dusas imagens nomeadas como img1.jpg e img2.jpg na pasta img. Ao executar o comando:
+Suponha que você tenha dusas imagens nomeadas como img1.jpg e img2.jpg na pasta img. Ao executar o comando:
 
 	python __init__.py
 
-Será gerada uma nova imagem chamada imagem_diferencas.png contendo as diferenças destacadas em preto e branco.
+Sera gerada uma nova imagem chamada imagem_diferencas.png contendo as diferencas destacadas em preto e branco.
 
-## Contribuição
+## Contribuicao
 
 Sinta-se à vontade para contribuir com este projeto. Abra uma issue para relatar bugs ou sugerir melhorias, ou envie um pull request.
 
-## Licença
+## Licenca
 
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto esta licenciado sob a licenca MIT. Consulte o arquivo LICENSE para mais detalhes.
